@@ -63,7 +63,7 @@ Rails.application.configure do
 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
-  config.hosts << "ec479f500abd45779d92998ed8538cab.vfs.cloud9.ap-northeast-1.amazonaws.com"
+  config.hosts << "a27bbeb9cc71410aa0f7032aff457b01.vfs.cloud9.ap-northeast-1.amazonaws.com"
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
@@ -72,7 +72,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
     config.active_job.queue_adapter = :inline
-
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
